@@ -28,10 +28,10 @@ export function Home() {
         emptyIcon = '☆',
 
     ]) => {
+
         const starts = startIcon.repeat(rating)
         const empty = emptyIcon.repeat(total - rating)
-        console.log(starts)
-        return starts - empty
+        return starts + empty
     }
 
     return (
@@ -73,7 +73,7 @@ export function Home() {
 
                                 </ul>
                             </div>
-                            <div className='grid grid-rows-2 mt-[60px] place-content-center w-36 h-16'> <h4 className='text-[#222224] font-[Poppins] font-bold text-base not-italic tracking-[0.16] leading-[16px]'>Customer Review</h4><h5 className='text-[#FBC400]'>★★★★★ <span className='text-[#000] font-[Poppins] font-semibold text-base not-italic'>4.8</span></h5></div>
+                            <div className='grid grid-rows-2 mt-[60px] place-content-center w-36 h-16'> <h4 className='text-[#222224] font-[Poppins] font-bold text-base not-italic tracking-[0.16] leading-[16px]'>Customer Review</h4><h5 className='text-[#FBC400]'>{createRating([5])}<span className='text-[#000] font-[Poppins] font-semibold text-base not-italic'>4.8</span></h5></div>
                         </div>
                     </div>
                     <div >

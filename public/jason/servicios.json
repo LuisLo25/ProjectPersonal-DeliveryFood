@@ -1,0 +1,21 @@
+[
+    {
+        "id": "1",
+        "imagenes": "deliveryfood.svg",
+        "titulo": "Delivery Food",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur"
+    },
+    {
+        "id": "2",
+        "imagenes": "easytoorder.svg",
+        "titulo": "Easy to order",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur"
+    },
+    {
+        "id": "3",
+        "imagenes": "fastestdelivery.svg",
+        "titulo": "Fastest Delivery",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur"
+    }
+
+]
